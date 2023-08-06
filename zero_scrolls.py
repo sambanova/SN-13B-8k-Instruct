@@ -437,3 +437,18 @@ class BookSumSort(ZeroScrollsTask):
         new_input = doc['input'] + example + '\nSummary IDs in Correct Order:\n'
         doc['input'] = new_input
         return doc
+
+
+def construct_tasks():
+    return {
+        "zero_scrolls_gov_report": GovReport,
+        "zero_scrolls_summ_screen_fd": SummScreenFd,
+        "zero_scrolls_qm_sum": QMSum,
+        "zero_scrolls_squality": SQuality,
+        "zero_scrolls_qasper": Qasper,
+        "zero_scrolls_narrative_qa": NarrativeQA,
+        "zero_scrolls_quality": Quality,
+        "zero_scrolls_musique": MuSiQue,
+        "zero_scrolls_space_digest": SpaceDigest,
+        "zero_scrolls_book_sum_sort": BookSumSort,
+    }
