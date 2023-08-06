@@ -116,7 +116,7 @@ class ZeroScrollsTask(Task):
         return doc['output']
 
     def construct_requests(self, doc, ctx):
-        primary_until = 'None' # TODO: set to end of text token of your model
+        primary_until = None # TODO: set to end of text token of your model
         assert primary_until is not None, "Don't forget to set the end of text token!"
         if self.max_gen_toks is None:
             until = {'until': [primary_until]}
