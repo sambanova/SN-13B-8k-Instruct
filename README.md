@@ -26,7 +26,7 @@ python main.py --batch_size 1 --tasks zero_scrolls_gov_report,zero_scrolls_summ_
 
 
 ## Scrolls Reproducibility
-1. Replace the `'\n'` with your model's end of text token in the `until` list for all `greedy_until` requests.
+1. In the LM Evaluation Harness, open `tasks/scrolls.py` and replace the `'\n'` with your model's end of text token in the `until` list for all `greedy_until` requests.
 2. Run the following command in the LM Evaluation Harness:
 ```
 python main.py --batch_size 1 --tasks scrolls_govreport,scrolls_qmsum,scrolls_quality,scrolls_summscreenfd --model gpt2 --model_args pretrained=sambanovasystems/SN-13B-8k-Instruct,dtype=float16 --num_fewshot 0  --no_cache
