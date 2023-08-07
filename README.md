@@ -1,5 +1,7 @@
 # SN-13B-8k-Instruct
-This repo contains the reproducibility information for the numbers listed in the SN-13B-8k-Instruct blogpost.
+This repo contains the reproducibility information for the numbers listed in the SN-13B-8k-Instruct blogpost.  Scrolls and ZeroScrolls refer to the following benchmarks:
+1. [Scrolls Benchmark](https://www.scrolls-benchmark.com/)
+2. [ZeroScrolls Benchmark](https://www.zero.scrolls-benchmark.com/) 
 
 ## Setup Eleuther AI LM Evaluation Harness
 1. git clone https://github.com/EleutherAI/lm-evaluation-harness.git
