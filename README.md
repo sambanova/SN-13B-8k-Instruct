@@ -1,10 +1,8 @@
 # SN-13B-8k-Instruct
-## Overview
-Please read our [blogpost](https://sambanova.ai/blog/training-long-sequence-size-models-on-sambanova/) to learn more about the model.  
-### Model
-Please visit our [Huggingface Model Card](https://huggingface.co/sambanovasystems/SN-13B-8k-Instruct) to learn how to use the model.
-### Discord
-Please feel free to join our sn-13b-8k-instruct channel on [Discord](https://discord.gg/8z2Pe7cpRv) to further discuss and chat with the team!
+## Basic Information
+- Blog Post: [Link](https://sambanova.ai/blog/training-long-sequence-size-models-on-sambanova/)
+- Discord: [Link](https://discord.gg/8z2Pe7cpRv)
+- SN-13B-8k-Instruct: [Link](https://huggingface.co/sambanovasystems/SN-13B-8k-Instruct)
 
 ## Reproducibility Information
 This repo contains the reproducibility information for the numbers listed in the SN-13B-8k-Instruct blogpost.  Scrolls and ZeroScrolls refer to the following benchmarks:
