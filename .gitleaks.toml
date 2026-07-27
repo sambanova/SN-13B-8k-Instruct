@@ -1,0 +1,5 @@
+# Gitleaks config for SN-13B-8k-Instruct. Extends the built-in default ruleset.
+title = "SN-13B-8k-Instruct gitleaks config"
+
+[extend]
+useDefault = true
